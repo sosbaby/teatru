@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fdfaf6;
+    color: #2c2c2c;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #e16a1a;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+  
+  .image-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .image-section figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .facts {
+    margin: 30px 0;
+  }
+  
+  .facts h2, .facts h3 {
+    color: #e16a1a;
+    margin-bottom: 10px;
+  }
+  
+  .facts ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .facts ul li {
+    margin-bottom: 8px;
+    list-style-type: disc;
+  }
+  
+  .media {
+    margin: 40px 0;
+  }
+  
+  .media h2 {
+    color:#e16a1a;
+    margin: 20px 0 10px;
+  }
+  
+  iframe, audio {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+
+  
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 1.7rem;
+    }
+  
+    .image-section img,
+    iframe,
+    audio {
+      width: 100%;
+    }
+  }
+  
+  
